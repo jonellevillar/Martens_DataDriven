@@ -1,0 +1,26 @@
+---
+title: "Martens Journal Club"
+format: 
+  revealjs:
+    theme: serif
+editor: visual
+---
+
+## Background
+
+Why did they write this paper?
+What was the need?
+What did they hope to achieve?
+
+---
+## Method
+
+---
+## Results
+
+---
+
+## How can we use this in our work?
+
+---
+
