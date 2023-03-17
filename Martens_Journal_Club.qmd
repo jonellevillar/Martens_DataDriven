@@ -1,9 +1,13 @@
 ---
-title: "Martens Journal Club"
+title: "Martens: Pre-Print Paper Presentation"
 format: 
   revealjs:
     theme: serif
-editor: visual
+
+---
+
+## Data Driven Taxonomy for Antipsychotic Medication: A New Classification System
+
 ---
 
 ## Background
@@ -11,13 +15,12 @@ editor: visual
 Why did they write this paper?
 What was the need?
 What did they hope to achieve?
-
 ---
+
 ## Method
 
 ---
 ## Results
-
 ---
 
 ## How can we use this in our work?
