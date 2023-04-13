@@ -21,9 +21,28 @@ What did they contribute to what is already known about categories of receptors?
 ## Method
 
 ---
-## Results
+
+## Four groups were defined:<br>
 ---
 
+## Group 1 <br> Muscarinic (M3-M5) receptor antagonism; Cholinergic and metabolic side effects. <br> <br>
+---
+## Group 2 <br> Dopamine (D2) partial agonism and adrenergic antagonism; Globally low side effect burden. <br> 
+---
+## Group 3 <br> Serotonergic and dopaminergic antagonism; Globally moderate side effect burden. <br> <br>
+---
+## Group 4 <br> Dopaminergic antagonism; Extrapyramidal and motor side effects. <br> <br>
+---
+Groups 1 and 4 were more efficacious than clusters 2 and 3. The novel classification was superior to existing approaches when predicting side effects
+
+
+
+---
+## Conclusion 
+
+Conclusions: A receptor affinity-based grouping not only reflects compound pharmacology but also detects meaningful clinical differences to a greater extent than existing approaches. The approach has the potential to benefit both patients and researchers by guiding treatment and informing drug development.
+
+---
 ## How can we use this in our work?
 
 
