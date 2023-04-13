@@ -15,6 +15,7 @@ format:
 Why did they write this paper?
 What was the need?
 What did they hope to achieve?
+What did they contribute to what is already known about categories of receptors?
 ---
 
 ## Method
@@ -24,6 +25,7 @@ What did they hope to achieve?
 ---
 
 ## How can we use this in our work?
+
 
 ---
 
