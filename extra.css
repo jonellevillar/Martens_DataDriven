@@ -1,0 +1,55 @@
+.light {
+  color: white;
+}
+.smokewhite {
+  color: "#f3f3f3";
+}
+.lggray {
+  color: "#eaeaea";
+}
+
+.dkpurp {
+  color: "#464362";
+  font-size: 120%;
+}
+
+.small { 
+  font-size: 0.75em
+} 
+
+.bitty { 
+    font-size: 1.25em;
+}
+
+.enlarge { 
+    font-size: 1.5em;
+}
+
+.fade {
+  opacity: 0.66;
+}
+
+.large {
+  font-size: 120%;
+}
+
+.largeBL {
+  font-size: 120%;
+  color: blue;
+}
+
+
+
+.Large {
+  font-size: 144%;
+}
+
+.big {
+  font-size: 2em;
+  color: blue;
+}
+
+#li::marker {
+ # content: "• ";
+ # color: #EFBE43;
+#}

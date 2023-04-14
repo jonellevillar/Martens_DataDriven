@@ -6,7 +6,7 @@ date-format: long
 format:
   revealjs:
     fontcolor: "#1b3352"
-    css: styles.css
+    css: extra.css
     incremental: true 
 bibliography: references.bib
 ---
