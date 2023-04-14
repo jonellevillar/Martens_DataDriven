@@ -7,7 +7,6 @@ format:
   revealjs:
     fontcolor: "#1b3352"
     incremental: true 
-    footer: <https://www.uib.no/en/rg/geneticsgroup/136292/martens-group>
 bibliography: references.bib
 ---
 
@@ -26,7 +25,7 @@ bibliography: references.bib
 
 ::: footer
 
-Martens Group (https://www.uib.no/en/rg/geneticsgroup/136292/martens-group)
+Martens Group 
 
 :::
 ------------------------------------------------------------------------
@@ -42,6 +41,9 @@ Martens Group (https://www.uib.no/en/rg/geneticsgroup/136292/martens-group)
 -   Remove receptors if Ki values were identical for all drugs.
 :::
 
+::: footer
+Martens Group 
+:::
 ------------------------------------------------------------------------
 
 ## Step 2: <br> Cluster APs by receptor affinities
@@ -53,6 +55,9 @@ Martens Group (https://www.uib.no/en/rg/geneticsgroup/136292/martens-group)
 -   Group AP with similar receptor profiles into distinct groups
 :::
 
+::: footer
+Martens Group 
+:::
 ------------------------------------------------------------------------
 
 ## Step 3: <br> Characterize relationships <br>
@@ -63,7 +68,11 @@ Martens Group (https://www.uib.no/en/rg/geneticsgroup/136292/martens-group)
 -   Compare results to existing methods of categorising APs.
 :::
 
-## Results: Four groups were defined:
+::: footer
+Martens Group 
+:::
+
+
 
 ## Group 1
 
@@ -73,6 +82,12 @@ Martens Group (https://www.uib.no/en/rg/geneticsgroup/136292/martens-group)
 
 Muscarinic (M3-M5) receptor antagonism. Cholinergic and metabolic side effects.
 
+
+::: footer
+Martens Group 
+:::
+
+
 ## Group 2
 
 <br>
@@ -80,6 +95,10 @@ Muscarinic (M3-M5) receptor antagonism. Cholinergic and metabolic side effects.
 <br>
 
 Dopamine (D2) partial agonism and adrenergic antagonism. Globally low side effect burden.
+
+::: footer
+Martens Group 
+:::
 
 ## Group 3
 
@@ -89,6 +108,10 @@ Dopamine (D2) partial agonism and adrenergic antagonism. Globally low side effec
 
 Serotonergic and dopaminergic antagonism. Globally moderate side effect burden.
 
+::: footer
+Martens Group 
+:::
+
 ## Group 4
 
 <br>
@@ -97,11 +120,19 @@ Serotonergic and dopaminergic antagonism. Globally moderate side effect burden.
 
 Dopaminergic antagonism; Extrapyramidal and motor side effects.
 
+::: footer
+Martens Group 
+:::
+
 ## Conclusion
 
 Groups 1 and 4 were more efficacious than clusters 2 and 3. The novel classification was superior to existing approaches when predicting side effects
 
 Conclusions: A receptor affinity-based grouping not only reflects compound pharmacology but also detects meaningful clinical differences to a greater extent than existing approaches. The approach has the potential to benefit both patients and researchers by guiding treatment and informing drug development.
+
+::: footer
+Martens Group 
+:::
 
 ## Discussion - How can we use this in our work?
 
@@ -109,20 +140,19 @@ The correlation matrix effectively normalises for D2 pKi thereby [**accounting f
 
 (Has a similar effect to normalising for D2 pKi, thereby accounting for the dosing differences between AP - they cite their work - look at fig.3 [@Kaar.etal2020])
 
+::: footer
+Martens Group 
+:::
+
 ## Acknowledgements
 
-##Stéphanie and Anne-Kristin and you all!
-
-![](img/Martens_web2022final.png){fig-align="center"}
+![](img/Martens_web2022final.png){fig-align="top center"}
+Stéphanie and Anne-Kristin and you all!
 
 ## References
 
-::: columns
-::: {.column width="50%"}
-Column 1
+::: footer
+Martens Group 
 :::
 
-::: {.column width="50%"}
-Column 2
-:::
-:::
+
