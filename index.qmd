@@ -1,6 +1,6 @@
 ---
-title: "Martens: Pre-Print Paper Presentation <br> <br>"
-author: "Jonelle"
+title: "Pre-Print Paper Presentation <br>"
+author: "Martens Group"
 date: last-modified
 date-format: long
 format:
@@ -16,44 +16,60 @@ bibliography: references.bib
 
 ## Background
 
-::: incremental
+::: {.incremental}
 -   Why did they write this paper?
 -   What was the need?
 -   What did they hope to achieve?
 -   What did they contribute to what is already known about categories of receptors?
 :::
 
-------------------------------------------------------------------------
+---
 
-## Method
+## Method - **I. Determine AP receptor affinities**
 
 <br/>
 
-**Determining receptor affinities** ::: {.incremental} 1 Conduct search for AP receptor affinities - humans only - include receptor if data were available for at least 5 separate drugs; - include AP if data were available for at least 5 separate receptors; - remove receptors if Ki values were identical for all drugs :::
 
-------------------------------------------------------------------------
+::: {.incremental} 
 
-## Method
-
-**Clustering AP based on receptor affinities** ::: {.incremental}
-
-2 Cluster AP into groups based on similarity of receptor profiles - Convert Ki values to pKi values and reduce these values by 4 to produce a floor score of zero. - pki value multiplied by -1 for drugs was are agonists or partial agonists at a given receptor. This accounts for the functionally inverse effect. - Correlation matrix created with adjusted pKi values. A high correlation coefficient between 2 AP indicates that they share a similar receptor profile. (Has a similar effect to normalising for D2 pKi, thereby accounting for the dosing differences between AP - they cite their work - look at fig.3 [@Kaar.etal2020]) - Group AP with similar receptor profiles into distinct groups. :::
-
----
-## Method
-
-::: {.incremental}
-Characterise the relationship between receptor profiles, categorisation schemes, and clinical effects 
-
-3 Characterized these receptor-defined clusters in terms of their receptor affinities and clinical profiles.
-4 Compared the ability of these clusters to predict side effects - and **compared this to existing methods of categorising AP**. 
+- Lit. search for AP receptor affinities; 
+- Include receptor if data were available for ≤ 5 separate drugs; 
+- Include AP if data were available for ≤ 5 separate receptors; 
+- Remove receptors if Ki values were identical for all drugs. 
 
 :::
+
 ---
+
+## Method -  **II. Cluster APs based on receptor affinities** 
+
+
+
+::: {.incremental}
+
+- Cluster AP into groups based on similar receptor profiles; 
+- Convert Ki values to pKi values and adjust for drugs that are agonists or partial agonists at a given receptor; 
+- Create correlation matrix with adjusted pKi values;  
+- Group AP with similar receptor profiles into distinct groups.
+
+:::
+
+---
+## Method - **III. Characterise relationships: <br> receptor profiles, categories, and clinical effects
+
+::: {.incremental}
+ 
+- Characterise the receptor-defined clusters in relation to their receptor affinities and clinical profiles.
+- Compare the ability of these clusters to predict side effects 
+- Compare this to existing methods of categorising APs. 
+
+:::
+
+
 
 ## Results: Four groups were defined:
 
-------------------------------------------------------------------------
+
 
 ## Group 1
 
@@ -69,9 +85,9 @@ Muscarinic (M3-M5) receptor antagonism. Cholinergic and metabolic side effects.
 
 <br>
 
-Dopamine (D2) partial agonism and adrenergic #antagonism. Globally low side effect burden.
+Dopamine (D2) partial agonism and adrenergic antagonism. Globally low side effect burden.
 
-------------------------------------------------------------------------
+
 
 ## Group 3
 
@@ -81,7 +97,7 @@ Dopamine (D2) partial agonism and adrenergic #antagonism. Globally low side effe
 
 Serotonergic and dopaminergic antagonism. Globally moderate side effect burden.
 
-------------------------------------------------------------------------
+
 
 ## Group 4
 
@@ -91,28 +107,28 @@ Serotonergic and dopaminergic antagonism. Globally moderate side effect burden.
 
 Dopaminergic antagonism; Extrapyramidal and motor side effects.
 
-------------------------------------------------------------------------
 
-Groups 1 and 4 were more efficacious than clusters 2 and 3. The novel classification was superior to existing approaches when predicting side effects
-
-------------------------------------------------------------------------
 
 ## Conclusion
+Groups 1 and 4 were more efficacious than clusters 2 and 3. The novel classification was superior to existing approaches when predicting side effects
+
 
 Conclusions: A receptor affinity-based grouping not only reflects compound pharmacology but also detects meaningful clinical differences to a greater extent than existing approaches. The approach has the potential to benefit both patients and researchers by guiding treatment and informing drug development.
 
-------------------------------------------------------------------------
+
 
 ## Discussion - How can we use this in our work?
 
 The correlation matrix effectively normalises for D2 pKi thereby [**accounting for the dosing differences between AP**]{style="color:#cc0000"}. Mention that we could avoid using the conversion to chlorpromazine equivalencies - mention the work that Andrea did here.
 
-------------------------------------------------------------------------
+(Has a similar effect to normalising for D2 pKi, thereby accounting for the dosing differences between AP - they cite their work - look at fig.3 [@Kaar.etal2020]) 
+
+
 
 ## Acknowledgements
 
-------------------------------------------------------------------------
+
 
 ## References
 
-## @mccutcheon2023
+@mccutcheon2023
