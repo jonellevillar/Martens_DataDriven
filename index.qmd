@@ -24,23 +24,23 @@ bibliography: references.bib
 
 ---
 
-## Method: <br> 1. Determine AP receptor affinities
+## Step 1: <br> Determine AP receptor affinities
 
 <br/>
 
 
 ::: {.incremental} 
 
-- Lit. search for AP receptor affinities; 
-- Include receptor if data were available for ≤ 5 separate drugs; 
-- Include AP if data were available for ≤ 5 separate receptors; 
+- Search literature for AP receptor affinities. 
+- Include receptor if data were available for ≤ 5 separate drugs. 
+- Include AP if data were available for ≤ 5 separate receptors. 
 - Remove receptors if Ki values were identical for all drugs. 
 
 :::
 
 ---
 
-## Method: <br>  2. Cluster APs based on receptor affinities 
+## Step 2: <br> Cluster APs by receptor affinities 
 
 ::: {.incremental}
 
@@ -52,7 +52,7 @@ bibliography: references.bib
 :::
 
 ---
-## Method: <br> 3. Characterise relationships <br> 
+## Step 3: <br> Characterise relationships <br> 
 
 ::: {.incremental}
  
