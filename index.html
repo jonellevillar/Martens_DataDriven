@@ -9,7 +9,7 @@
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.2.269">
 
-  <title>Martens: Pre-Print Paper Presentation</title>
+  <title>index</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -322,13 +322,7 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Martens: Pre-Print Paper Presentation</h1>
 
-<div class="quarto-title-authors">
-</div>
-
-</section>
 <section id="data-driven-taxonomy-for-antipsychotic-medication-a-new-classification-system" class="slide level2">
 <h2>Data Driven Taxonomy for Antipsychotic Medication: A New Classification System</h2>
 </section>
@@ -338,35 +332,50 @@
 </section>
 <section id="method" class="slide level2">
 <h2>Method</h2>
+<p><strong>Determining receptor affinities</strong> 1 Conduct search for AP receptor affinities - humans only - include receptor if data were available for at least 5 separate drugs; - include AP if data were available for at least 5 separate receptors; - remove receptors if Ki values were identical for all drugs</p>
+</section>
+<section id="method-1" class="slide level2">
+<h2>Method</h2>
+<p><strong>Clustering AP based on receptor affinities</strong></p>
+<p>2 Cluster AP into groups based on similarity of receptor profiles - Convert Ki values to pKi values and reduce these values by 4 to produce a floor score of zero. - pki value multiplied by -1 for drugs was are agonists or partial agonists at a given receptor. This accounts for the functionally inverse effect. - Correlation matrix created with adjusted pKi values. A high correlation coefficient between 2 AP indicates that they share a similar receptor profile. (Has a similar effect to normalising for D2 pKi, thereby accounting for the dosing differences between AP - they cite their work - look at fig.3 <span class="citation" data-cites="Kaar.etal2020">[@Kaar.etal2020]</span>) - Group AP with similar receptor profiles into distinct groups.</p>
+</section>
+<section id="method-2" class="slide level2">
+<h2>Method</h2>
+<p>Characterise the relationship between receptor profiles, categorisation schemes, and clinical effects</p>
+<p>3 Characterized these receptor-defined clusters in terms of their receptor affinities and clinical profiles. 4 Compared the ability of these clusters to predict side effects - and <strong>compared this to existing methods of categorising AP</strong>.</p>
 </section>
 <section id="four-groups-were-defined" class="slide level2">
 <h2>Four groups were defined:</h2>
 </section>
 <section id="group-1" class="slide level2">
 <h2>Group 1 <br> <br></h2>
-<p>#Muscarinic (M3-M5) receptor antagonism; #Cholinergic and metabolic side effects.</p>
+<p>Muscarinic (M3-M5) receptor antagonism. Cholinergic and metabolic side effects.</p>
 </section>
 <section id="group-2" class="slide level2">
 <h2>Group 2 <br> <br></h2>
-<p>#Dopamine (D2) partial agonism and adrenergic #antagonism; #Globally low side effect burden.</p>
+<p>Dopamine (D2) partial agonism and adrenergic #antagonism. Globally low side effect burden.</p>
 </section>
-<section id="group-4-br" class="slide level2">
-<h2>Group 4 <br> br&gt;</h2>
-<p>#Dopaminergic antagonism; #Extrapyramidal and motor side effects.</p>
-<table style="width:6%;">
-<colgroup>
-<col style="width: 5%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Groups 1 and 4 were more efficacious than clusters 2 and 3. The novel classification was superior to existing approaches when predicting side effects</td>
-</tr>
-</tbody>
-</table>
+<section id="group-4" class="slide level2">
+<h2>Group 4 <br> <br></h2>
+<p>Dopaminergic antagonism; Extrapyramidal and motor side effects.</p>
+</section>
+<section class="slide level2">
+
+<p>Groups 1 and 4 were more efficacious than clusters 2 and 3. The novel classification was superior to existing approaches when predicting side effects</p>
 </section>
 <section id="conclusion" class="slide level2">
 <h2>Conclusion</h2>
 <p>Conclusions: A receptor affinity-based grouping not only reflects compound pharmacology but also detects meaningful clinical differences to a greater extent than existing approaches. The approach has the potential to benefit both patients and researchers by guiding treatment and informing drug development.</p>
+</section>
+<section id="discussion---how-can-we-use-this-in-our-work" class="slide level2">
+<h2>Discussion - How can we use this in our work?</h2>
+<p>The correlation matrix effectively normalises for D2 pKi thereby accounting for the dosing differences between AP. Mention that we could avoid using the conversion to chlorpromazine equivalencies - mention the work that Andrea did here.</p>
+</section>
+<section id="acknowledgements" class="slide level2">
+<h2>Acknowledgements</h2>
+</section>
+<section class="slide level2">
+
 <div class="footer footer-default">
 
 </div>
