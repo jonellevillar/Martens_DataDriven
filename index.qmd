@@ -6,13 +6,12 @@ date-format: long
 format:
   revealjs:
     incremental: true 
-    theme: serif
 bibliography: references.bib
 ---
 
-## Data Driven Taxonomy for Antipsychotic Medication: A New Classification System
+![](img/TitleImg.png) 
 
-<br/>
+---
 
 ## Background
 
@@ -25,7 +24,7 @@ bibliography: references.bib
 
 ---
 
-## Method - **I. Determine AP receptor affinities**
+## Method: <br> I. Determine AP receptor affinities
 
 <br/>
 
@@ -41,9 +40,7 @@ bibliography: references.bib
 
 ---
 
-## Method -  **II. Cluster APs based on receptor affinities** 
-
-
+## Method: <br>  II. Cluster APs based on receptor affinities 
 
 ::: {.incremental}
 
@@ -55,7 +52,7 @@ bibliography: references.bib
 :::
 
 ---
-## Method - **III. Characterise relationships: <br> receptor profiles, categories, and clinical effects
+## Method: <br> III. Characterise relationships: <br> receptor profiles, categories, and clinical effects
 
 ::: {.incremental}
  
