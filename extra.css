@@ -1,5 +1,11 @@
 
 /*-- scss:rules --*/
+
+.width-image{
+  width: 500px!important;
+}
+
+
 .small { 
   font-size: 0.75em
 } 
