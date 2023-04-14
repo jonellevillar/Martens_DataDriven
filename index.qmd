@@ -6,6 +6,7 @@ date-format: long
 format:
   revealjs:
     fontcolor: "#1b3352"
+    css: styles.css
     incremental: true 
 bibliography: references.bib
 ---
@@ -146,7 +147,7 @@ Martens Group
 
 ## Acknowledgements
 
-![](img/Martens_web2022final.png){fig-align="top center"}
+![](img/Martens_web2022final.png){width="75%"}
 Stéphanie and Anne-Kristin and you all!
 
 ## References
