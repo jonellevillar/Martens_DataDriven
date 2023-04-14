@@ -8,6 +8,7 @@ format:
     incremental: true
     bibliography: datadriven_ref.bib 
     reference-location: document
+    theme: serif 
 
 
 ---
