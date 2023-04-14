@@ -5,9 +5,10 @@ date: last-modified
 date-format: long
 format:
   revealjs:
+    incremental: true 
     theme: serif
+bibliography: references.bib
 ---
-
 
 ## Data Driven Taxonomy for Antipsychotic Medication: A New Classification System
 
@@ -15,41 +16,28 @@ format:
 
 ## Background
 
-::: {.incremental}
-
-- Why did they write this paper?
-- What was the need?
-- What did they hope to achieve?
-- What did they contribute to what is already known about categories of receptors?
-
+::: incremental
+-   Why did they write this paper?
+-   What was the need?
+-   What did they hope to achieve?
+-   What did they contribute to what is already known about categories of receptors?
 :::
 
----
+------------------------------------------------------------------------
 
 ## Method
 
 <br/>
 
-**Determining receptor affinities**
-::: {.incremental}
-1 Conduct search for AP receptor affinities - humans only 
-- include receptor if data were available for at least 5 separate drugs; 
-- include AP if data were available for at least 5 separate receptors;
-- remove receptors if Ki values were identical for all drugs
-:::
+**Determining receptor affinities** ::: {.incremental} 1 Conduct search for AP receptor affinities - humans only - include receptor if data were available for at least 5 separate drugs; - include AP if data were available for at least 5 separate receptors; - remove receptors if Ki values were identical for all drugs :::
 
----
+------------------------------------------------------------------------
 
 ## Method
-**Clustering AP based on receptor affinities**
-::: {.incremental}
 
-2 Cluster AP into groups based on similarity of receptor profiles
-- Convert Ki values to pKi values and reduce these values by 4 to produce a floor score of zero. 
-- pki value multiplied by -1 for drugs was are agonists or partial agonists at a given receptor. This accounts for the functionally inverse effect. 
-- Correlation matrix created with adjusted pKi values. A high correlation coefficient between 2 AP indicates that they share a similar receptor profile. (Has a similar effect to normalising for D2 pKi, thereby accounting for the dosing differences between AP - they cite their work - look at fig.3 [@Kaar.etal2020]) 
-- Group AP with similar receptor profiles into distinct groups. 
-:::
+**Clustering AP based on receptor affinities** ::: {.incremental}
+
+2 Cluster AP into groups based on similarity of receptor profiles - Convert Ki values to pKi values and reduce these values by 4 to produce a floor score of zero. - pki value multiplied by -1 for drugs was are agonists or partial agonists at a given receptor. This accounts for the functionally inverse effect. - Correlation matrix created with adjusted pKi values. A high correlation coefficient between 2 AP indicates that they share a similar receptor profile. (Has a similar effect to normalising for D2 pKi, thereby accounting for the dosing differences between AP - they cite their work - look at fig.3 [@Kaar.etal2020]) - Group AP with similar receptor profiles into distinct groups. :::
 
 ---
 ## Method
@@ -61,76 +49,70 @@ Characterise the relationship between receptor profiles, categorisation schemes,
 4 Compared the ability of these clusters to predict side effects - and **compared this to existing methods of categorising AP**. 
 
 :::
-
 ---
 
 ## Results: Four groups were defined:
 
----
+------------------------------------------------------------------------
 
-## Group 1 
+## Group 1
 
-<br> 
 <br>
 
-Muscarinic (M3-M5) receptor antagonism. 
-Cholinergic and metabolic side effects. 
-
-
-## Group 2 
-
-<br> 
 <br>
 
-Dopamine (D2) partial agonism and adrenergic #antagonism. 
-Globally low side effect burden.  
+Muscarinic (M3-M5) receptor antagonism. Cholinergic and metabolic side effects.
 
----
+## Group 2
 
-## Group 3 
-
-<br> 
 <br>
 
-Serotonergic and dopaminergic antagonism. 
-Globally moderate side effect burden. 
-
----
-
-## Group 4 
-
-<br> 
 <br>
 
-Dopaminergic antagonism; 
-Extrapyramidal and motor side effects. 
+Dopamine (D2) partial agonism and adrenergic #antagonism. Globally low side effect burden.
 
----
+------------------------------------------------------------------------
+
+## Group 3
+
+<br>
+
+<br>
+
+Serotonergic and dopaminergic antagonism. Globally moderate side effect burden.
+
+------------------------------------------------------------------------
+
+## Group 4
+
+<br>
+
+<br>
+
+Dopaminergic antagonism; Extrapyramidal and motor side effects.
+
+------------------------------------------------------------------------
 
 Groups 1 and 4 were more efficacious than clusters 2 and 3. The novel classification was superior to existing approaches when predicting side effects
 
+------------------------------------------------------------------------
 
----
-
-
-## Conclusion 
+## Conclusion
 
 Conclusions: A receptor affinity-based grouping not only reflects compound pharmacology but also detects meaningful clinical differences to a greater extent than existing approaches. The approach has the potential to benefit both patients and researchers by guiding treatment and informing drug development.
 
----
+------------------------------------------------------------------------
 
 ## Discussion - How can we use this in our work?
 
-The correlation matrix effectively normalises for D2 pKi thereby 
-[**accounting for the dosing differences between AP**]{style="color:#cc0000"}. Mention that we could avoid using the conversion to chlorpromazine equivalencies - mention the work that Andrea did here. 
+The correlation matrix effectively normalises for D2 pKi thereby [**accounting for the dosing differences between AP**]{style="color:#cc0000"}. Mention that we could avoid using the conversion to chlorpromazine equivalencies - mention the work that Andrea did here.
 
+------------------------------------------------------------------------
 
----
+## Acknowledgements
 
-## Acknowledgements 
-
----
+------------------------------------------------------------------------
 
 ## References
 
-
+## @mccutcheon2023
