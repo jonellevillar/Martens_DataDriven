@@ -4,12 +4,14 @@ author: "Jonelle"
 date: last-modified
 date-format: long
 format: 
-  revealjs: default
-revealjs-plugins:
-  - confetti   
+  revealjs:
+    theme: serif
+
+
+
+  
     
-      
-      
+       
 ---
 
 
