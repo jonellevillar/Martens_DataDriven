@@ -1,18 +1,5 @@
-.light {
-  color: white;
-}
-.smokewhite {
-  color: "#f3f3f3";
-}
-.lggray {
-  color: "#eaeaea";
-}
 
-.dkpurp {
-  color: "#464362";
-  font-size: 120%;
-}
-
+/*-- scss:rules --*/
 .small { 
   font-size: 0.75em
 } 
@@ -36,9 +23,11 @@
 .largeBL {
   font-size: 120%;
   color: blue;
-}
 
 
+.colorfont: {
+  color:#1b3352
+} 
 
 .Large {
   font-size: 144%;
