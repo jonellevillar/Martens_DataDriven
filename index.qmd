@@ -1,22 +1,21 @@
 ---
-title: "Martens: Pre-Print Paper Presentation"
+title: "Martens: Pre-Print Paper Presentation <br> <br>"
 author: "Jonelle"
-date: "18-04-2023"
+date: last-modified
+date-format: long
 format: 
-  revealjs:
-    logo: UiBlogoMED_gray_v_Eng.png
-    incremental: true
-    bibliography: datadriven_ref.bib 
-    reference-location: document
-    theme: serif 
-
-
+  revealjs: default
+revealjs-plugins:
+    - confetti   
+    
+      
+      
 ---
----
+
 
 ## Data Driven Taxonomy for Antipsychotic Medication: A New Classification System
 
----
+
 
 ## Background
 
@@ -24,7 +23,6 @@ Why did they write this paper?
 What was the need?
 What did they hope to achieve?
 What did they contribute to what is already known about categories of receptors?
----
 
 ## Method
 **Determining receptor affinities**
@@ -32,7 +30,7 @@ What did they contribute to what is already known about categories of receptors?
 - include receptor if data were available for at least 5 separate drugs; 
 - include AP if data were available for at least 5 separate receptors;
 - remove receptors if Ki values were identical for all drugs
----
+
 ## Method
 **Clustering AP based on receptor affinities**
 
@@ -42,63 +40,63 @@ What did they contribute to what is already known about categories of receptors?
 - Correlation matrix created with adjusted pKi values. A high correlation coefficient between 2 AP indicates that they share a similar receptor profile. (Has a similar effect to normalising for D2 pKi, thereby accounting for the dosing differences between AP - they cite their work - look at fig.3 [@Kaar.etal2020]) 
 - Group AP with similar receptor profiles into distinct groups. 
 
----
+
 ## Method
 Characterise the relationship between receptor profiles, categorisation schemes, and clinical effects 
 
 3 Characterized these receptor-defined clusters in terms of their receptor affinities and clinical profiles.
 4 Compared the ability of these clusters to predict side effects - and **compared this to existing methods of categorising AP**. 
 
----
+
 
 ## Four groups were defined:
----
+
 
 ## Group 1 <br> <br>
 
 Muscarinic (M3-M5) receptor antagonism. 
 Cholinergic and metabolic side effects. 
 
----
+
 ## Group 2 <br> <br>
 
 Dopamine (D2) partial agonism and adrenergic #antagonism. 
 Globally low side effect burden.  
----
+
 ## Group 3 <br> <br>
 
-###Serotonergic and dopaminergic antagonism. 
-###Globally moderate side effect burden. 
+Serotonergic and dopaminergic antagonism. 
+Globally moderate side effect burden. 
 
----
+
 ## Group 4 <br> <br>
 
 Dopaminergic antagonism; 
 Extrapyramidal and motor side effects. 
 
----
+
 
 Groups 1 and 4 were more efficacious than clusters 2 and 3. The novel classification was superior to existing approaches when predicting side effects
 
 
 
----
+
 
 ## Conclusion 
 
 Conclusions: A receptor affinity-based grouping not only reflects compound pharmacology but also detects meaningful clinical differences to a greater extent than existing approaches. The approach has the potential to benefit both patients and researchers by guiding treatment and informing drug development.
 
----
+
 
 ## Discussion - How can we use this in our work?
 
 The correlation matrix effectively normalises for D2 pKi thereby accounting for the dosing differences between AP. Mention that we could avoid using the conversion to chlorpromazine equivalencies - mention the work that Andrea did here. 
 
----
-## References 
 
----
+## Acknowledgements 
 
-## Acknowledgements
 
----
+
+## References
+
+
