@@ -151,7 +151,7 @@ Martens Group
 
 ## Acknowledgements
 Stéphanie and Anne-Kristin and you all!
-![](img/Martens_web2022final.png){align = center, width="50%"}
+![](img/Martens_web2022final.png){align = center, width="45%"}
 
 
 ## References
