@@ -31,7 +31,7 @@ Martens Group
 :::
 ------------------------------------------------------------------------
 
-## Step 1: <br> {.smaller} Determine AP receptor affinities
+## Step 1: <br> Determine AP receptor affinities {.smaller}
 
 <br/>
 
@@ -47,7 +47,9 @@ Martens Group
 :::
 ------------------------------------------------------------------------
 
-## Step 2: <br> {.smaller} Cluster APs by receptor affinities
+## Step 2: <br> Cluster APs by receptor affinities {.smaller} 
+
+<br>
 
 ::: incremental
 -   Cluster AP into groups based on similar receptor profiles
@@ -61,7 +63,9 @@ Martens Group
 :::
 ------------------------------------------------------------------------
 
-## Step 3: <br> {.smaller} Characterize relationships <br>
+## Step 3: <br> Characterize relationships {.smaller} 
+
+<br>
 
 ::: incremental
 -   Characterize the receptor-defined clusters by receptor affinities and clinical profiles.
@@ -146,9 +150,9 @@ Martens Group
 :::
 
 ## Acknowledgements
-
-![](img/Martens_web2022final.png){width="60%"}
 Stéphanie and Anne-Kristin and you all!
+![](img/Martens_web2022final.png){align = center, width="50%"}
+
 
 ## References
 
