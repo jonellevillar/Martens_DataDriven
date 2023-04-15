@@ -1,8 +1,7 @@
 ---
 title: "Pre-Print Paper Presentation <br>"
 author: "Martens Group"
-date: last-modified
-date-format: long
+date: "April 18, 2023"
 format:
   revealjs:
     chalkboard: true
@@ -11,9 +10,9 @@ format:
 bibliography: references.bib
 ---
 
-![](img/TitleImg.png){fig-align="center"}
+![](img/TitleImg.png){ width=70%}
 
-------------------------------------------------------------------------
+---
 
 ## Background
 
@@ -29,7 +28,7 @@ bibliography: references.bib
 Martens Group 
 
 :::
-------------------------------------------------------------------------
+---
 
 ## Method
 
@@ -42,9 +41,9 @@ Martens Group
 
 :::
 
-## Research-focused data
+## Method: Research-focused data
 
-## Step 1: <br> Determine AP receptor affinities 
+### Step 1: <br> Determine AP receptor affinities 
 
 <br/>
 
@@ -58,9 +57,10 @@ Martens Group
 ::: footer
 Martens Group 
 :::
-------------------------------------------------------------------------
 
-## Step 2: <br> Cluster APs by receptor affinities 
+---
+
+### Step 2: <br> Cluster APs by receptor affinities 
 
 <br>
 
@@ -74,9 +74,10 @@ Martens Group
 ::: footer
 Martens Group 
 :::
-------------------------------------------------------------------------
 
-## Step 3: <br> Characterize relationships  
+---
+
+### Step 3: <br> Characterize relationships  
 
 <br>
 
@@ -90,23 +91,12 @@ Martens Group
 Martens Group 
 :::
 
-## Clinical-focused data
+---
 
-- Created a database of side effects described in . 
-- Key words: 
+## Method: Clinical-focused data
 
+- Created a database of side effects. 
 
-::: footer
-Martens Group 
-:::
-
-## Group 1
-
-<br>
-
-<br>
-
-Muscarinic (M3-M5) receptor antagonism. Cholinergic and metabolic side effects.
 
 
 ::: footer
@@ -114,43 +104,21 @@ Martens Group
 :::
 
 
-## Group 2
+---
 
-<br>
+## Results:
 
-<br>
-
-Dopamine (D2) partial agonism and adrenergic antagonism. Globally low side effect burden.
-
-::: footer
-Martens Group 
-:::
-
-## Group 3
-
-<br>
-
-<br>
-
-Serotonergic and dopaminergic antagonism. Globally moderate side effect burden.
+- Receptor based 
+- Prediction of side effects
 
 ::: footer
 Martens Group 
 :::
 
-## Group 4
+---
 
-<br>
 
-<br>
-
-Dopaminergic antagonism; Extrapyramidal and motor side effects.
-
-::: footer
-Martens Group 
-:::
-
-## Results 1 <br>
+### Results 1: <br> Antipsychotic pKi values
 
 ![Fig.1](img/Fig1.png){ width=60%}
 
@@ -160,7 +128,7 @@ Martens Group
 
 ---
 
-## Results 2 <br>
+### Results 2: <br> AP clustering based on receptor profiles
 
 ![Fig.2](img/Fig2.png){ width=75%}
 
@@ -170,7 +138,7 @@ Martens Group
 
 ---
 
-## Results <br> 
+### Results 3: <br> Characterized receptor-defined AP clusters
 
 ![Fig.3](img/Fig3.png){ width=75%}
 
@@ -180,22 +148,26 @@ Martens Group
 
 ---
 
-## Results 4 <br>
+### Results 4: <br> Characterized clinical profiles of PCs & <br> receptor-defined clusters
 
 ![Fig.4](img/Fig4.png){ width=60%}
+
+
 ::: footer
 Martens Group 
 :::
 
 ---
 
-## Results 5 <br>
+### Results 5: <br> AP categorisation schemes & <br> prediction of clinical effects
 
 ![Fig.5](img/Fig5.png){ width=75%}
 
 ::: footer
 Martens Group 
 :::
+
+---
 
 ## Conclusion
 
@@ -210,25 +182,25 @@ Martens Group
 ---
 
 ## Discussion: <br> 
-## Does regrouping APs have an impact on our work?
 
-- We needn´t be concerned about chloropromazine equivalencies? The correlation matrix effectively normalises for D2 pKi thereby [**accounting for the dosing differences between AP**]{style="color:#cc0000"}. 
+- Does regrouping APs have an impact on our work?
 
-(Has a similar effect to normalising for D2 pKi, thereby accounting for the dosing differences between AP - they cite their work - look at fig.3 [@Kaar.etal2020])
+- Can we use the correlation matrix normalized for pKi D2 instead of chloropromazine equivalencies? 
 
-- What did they contribute to what is already known about categories of receptors?
+- What caught your interest?
 
-- Did you learn anything that surprised you?
 
 ::: footer
 Martens Group 
 :::
 
+---
+
 ## Acknowledgements
 Stéphanie and Anne-Kristin and you all!
 ![](img/Martens_web2022final.png){ width=70%}
 
-
+---
 ## References
 
 ::: footer
@@ -236,3 +208,4 @@ Martens Group
 :::
 
 
+---

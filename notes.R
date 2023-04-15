@@ -52,3 +52,25 @@ f you need more control over your markers, use list-style-type: none and either 
 li>.marker {
   /* go wild... */
 }
+
+
+The correlation matrix effectively normalises for D2 pKi thereby [**accounting for the dosing differences between AP**]{style="color:#cc0000"}. 
+
+(Has a similar effect to normalising for D2 pKi, thereby accounting for the dosing differences between AP - they cite their work - look at fig.3 [@Kaar.etal2020])
+
+
+## Group 1
+
+Muscarinic (M3-M5) receptor antagonism. Cholinergic and metabolic side effects.
+
+
+## Group 2
+Dopamine (D2) partial agonism and adrenergic antagonism. Globally low side effect burden.
+
+
+## Group 3
+Serotonergic and dopaminergic antagonism. Globally moderate side effect burden.
+
+
+## Group 4
+Dopaminergic antagonism; Extrapyramidal and motor side effects.
