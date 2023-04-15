@@ -150,7 +150,7 @@ Dopaminergic antagonism; Extrapyramidal and motor side effects.
 Martens Group 
 :::
 
-## Results <br>
+## Results 1 <br>
 
 ![Fig.1](img/Fig1.png){ width=70%}
 
@@ -158,7 +158,7 @@ Martens Group
 Martens Group 
 :::
 
-## Results 
+## Results 2 <br>
 
 ![Fig.2](img/Fig2.png){ width=70%}
 
@@ -166,7 +166,9 @@ Martens Group
 Martens Group 
 :::
 
-## Results
+---
+
+## Results <br> 
 
 ![Fig.3](img/Fig3.png){ width=70%}
 
@@ -174,14 +176,18 @@ Martens Group
 Martens Group 
 :::
 
-## Results
+---
+
+## Results 4 <br>
 
 ![Fig.4](img/Fig4.png){ width=70%}
 ::: footer
 Martens Group 
 :::
 
-## Results
+---
+
+## Results 5 <br>
 
 ![Fig.5](img/Fig5.png){ width=70%}
 
