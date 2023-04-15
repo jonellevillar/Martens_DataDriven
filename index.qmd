@@ -20,7 +20,7 @@ bibliography: references.bib
 -   Why did they write this paper?
 -   What was the need?
 -   What did they hope to achieve?
--   What did they contribute to what is already known about categories of receptors?
+
 :::
 
 ::: footer
@@ -29,6 +29,19 @@ Martens Group
 
 :::
 ------------------------------------------------------------------------
+
+## Method
+
+- Collect data that addressed the research and clinical needs of 
+- Database of side effects 
+
+::: footer
+
+Martens Group 
+
+:::
+
+## Research-focused data
 
 ## Step 1: <br> Determine AP receptor affinities 
 
@@ -76,7 +89,15 @@ Martens Group
 Martens Group 
 :::
 
+## Clinical-focused data
 
+- Created a database of side effects described in . 
+- Key words: 
+
+
+::: footer
+Martens Group 
+:::
 
 ## Group 1
 
@@ -138,11 +159,16 @@ Conclusions: A receptor affinity-based grouping not only reflects compound pharm
 Martens Group 
 :::
 
-## Discussion - How can we use this in our work?
+## Discussion: <br> 
+## Does regrouping APs have an impact on our work?
 
-The correlation matrix effectively normalises for D2 pKi thereby [**accounting for the dosing differences between AP**]{style="color:#cc0000"}. Mention that we could avoid using the conversion to chlorpromazine equivalencies - mention the work that Andrea did here.
+- We needn´t be concerned about chloropromazine equivalencies? The correlation matrix effectively normalises for D2 pKi thereby [**accounting for the dosing differences between AP**]{style="color:#cc0000"}. 
 
 (Has a similar effect to normalising for D2 pKi, thereby accounting for the dosing differences between AP - they cite their work - look at fig.3 [@Kaar.etal2020])
+
+- What did they contribute to what is already known about categories of receptors?
+
+- Did you learn anything that surprised you?
 
 ::: footer
 Martens Group 
