@@ -5,6 +5,7 @@ date: last-modified
 date-format: long
 format:
   revealjs:
+    chalkboard: true
     css: extra.css
     incremental: true 
 bibliography: references.bib
