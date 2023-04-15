@@ -150,6 +150,45 @@ Dopaminergic antagonism; Extrapyramidal and motor side effects.
 Martens Group 
 :::
 
+## Results <br>
+
+![Fig.1](img/Fig1.png){ width=70%}
+
+::: footer
+Martens Group 
+:::
+
+## Results 
+
+![Fig.2](img/Fig2.png){ width=70%}
+
+::: footer
+Martens Group 
+:::
+
+## Results
+
+![Fig.3](img/Fig3.png){ width=70%}
+
+::: footer
+Martens Group 
+:::
+
+## Results
+
+![Fig.4](img/Fig4.png){ width=70%}
+::: footer
+Martens Group 
+:::
+
+## Results
+
+![Fig.5](img/Fig5.png){ width=70%}
+
+::: footer
+Martens Group 
+:::
+
 ## Conclusion
 
 Groups 1 and 4 were more efficacious than clusters 2 and 3. The novel classification was superior to existing approaches when predicting side effects
