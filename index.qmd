@@ -152,15 +152,17 @@ Martens Group
 
 ## Results 1 <br>
 
-![Fig.1](img/Fig1.png){ width=70%}
+![Fig.1](img/Fig1.png){ width=60%}
 
 ::: footer
 Martens Group 
 :::
 
+---
+
 ## Results 2 <br>
 
-![Fig.2](img/Fig2.png){ width=70%}
+![Fig.2](img/Fig2.png){ width=75%}
 
 ::: footer
 Martens Group 
@@ -170,7 +172,7 @@ Martens Group
 
 ## Results <br> 
 
-![Fig.3](img/Fig3.png){ width=70%}
+![Fig.3](img/Fig3.png){ width=75%}
 
 ::: footer
 Martens Group 
@@ -180,7 +182,7 @@ Martens Group
 
 ## Results 4 <br>
 
-![Fig.4](img/Fig4.png){ width=70%}
+![Fig.4](img/Fig4.png){ width=60%}
 ::: footer
 Martens Group 
 :::
@@ -189,7 +191,7 @@ Martens Group
 
 ## Results 5 <br>
 
-![Fig.5](img/Fig5.png){ width=70%}
+![Fig.5](img/Fig5.png){ width=75%}
 
 ::: footer
 Martens Group 
@@ -204,6 +206,8 @@ Conclusions: A receptor affinity-based grouping not only reflects compound pharm
 ::: footer
 Martens Group 
 :::
+
+---
 
 ## Discussion: <br> 
 ## Does regrouping APs have an impact on our work?
