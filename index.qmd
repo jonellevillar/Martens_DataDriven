@@ -5,21 +5,23 @@ date: 04/18/2023
 date-format: long
 format:
   revealjs:
+    slide-number: true
     chalkboard: true
 incremental: true 
 bibliography: references.bib    
 ---
 
-![](img/TitleImg.png){ width=70%}
+![](img/TitleImg.png)
 
 ---
 
-## Background
+## Background for new classification system
 
 ::: incremental
--   Why did they write this paper?
--   What was the need?
--   What did they hope to achieve?
+
+-   Bridge the gap between clinical and research domains 
+-   Improve treatment response/tolerability when a medication switch is necessary 
+-   Clarify oversimplification (typical/atypical, 1st vs 2nd gen.) 
 
 :::
 
@@ -30,17 +32,6 @@ Martens Group
 :::
 
 ---
-
-## Method
-
-- Collect data that addressed the research and clinical needs of 
-- Database of side effects 
-
-::: footer
-
-Martens Group 
-
-:::
 
 ## Method: Research-focused data
 
@@ -49,10 +40,13 @@ Martens Group
 <br/>
 
 ::: incremental
--   Search literature for AP receptor affinities.
+
+-   Receptor affinities obtained from NIMH.
 -   Include receptor if data were available for ≤ 5 separate drugs.
 -   Include AP if data were available for ≤ 5 separate receptors.
 -   Remove receptors if Ki values were identical for all drugs.
+-   Convert Ki to pKi values.
+
 :::
 
 ::: footer
@@ -66,10 +60,10 @@ Martens Group
 <br>
 
 ::: incremental
--   Cluster AP into groups based on similar receptor profiles
--   Convert Ki values to pKi values and adjust for drugs that are agonists or partial agonists at a given receptor
--   Create correlation matrix with adjusted pKi values\
--   Group AP with similar receptor profiles into distinct groups
+
+-   Adjust pKi values for agonists/partial agonists. 
+-   Create correlation matrix with adjusted pKi values.
+-   Group AP with similar receptor profiles into distinct groups.
 :::
 
 ::: footer
@@ -78,14 +72,18 @@ Martens Group
 
 ---
 
-### Step 3: <br> Characterize relationships  
+### Step 3: <br> Characterize relationships between <br> receptor profiles, other categorisation systems, and clinical effects
 
 <br>
 
 ::: incremental
--   Characterize the receptor-defined clusters by receptor affinities and clinical profiles.
--   Compare the ability of these clusters to predict side effects.
--   Compare results to existing methods of categorising APs.
+
+-   Performed Probabilistic PCA of receptor profiles. 
+-   Calculated mean contribution of each AP cluster to 3 PCs.
+-   Compare the ability of these clusters to predict side effects using ML.
+-   Compare results to existing methods of categorizing APs including NbN [@Zohar.etal2015].
+-   Evaluated median absolute error for 27 APs. 
+
 :::
 
 ::: footer
@@ -96,25 +94,29 @@ Martens Group
 
 ## Method: Clinical-focused data
 
-- Created a database of side effects. 
+- Created a database of side effects[@Taylor.etal2021]. 
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+![](img/db_sideEffects.png)
+
+:::
+
+::: {.column width="40%"}
+
+- 
 
 
+:::
+
+::::
 
 ::: footer
 Martens Group 
 :::
 
-
----
-
-## Results:
-
-- Receptor based 
-- Prediction of side effects
-
-::: footer
-Martens Group 
-:::
 
 ---
 
@@ -172,9 +174,20 @@ Martens Group
 
 ## Conclusion
 
-Groups 1 and 4 were more efficacious than clusters 2 and 3. The novel classification was superior to existing approaches when predicting side effects
+<br>
 
-Conclusions: A receptor affinity-based grouping not only reflects compound pharmacology but also detects meaningful clinical differences to a greater extent than existing approaches. The approach has the potential to benefit both patients and researchers by guiding treatment and informing drug development.
+::: incremental
+
+-  Data driven method provides a system for researchers and clinicians. 
+
+-  ID of 4 groups of 42 receptors and 27 APs that map well to clinical profiles.
+
+-  Method has potential for personalized psychiatry <br>
+    *predicting side effects* 
+    *groups 1 & 4 more efficacious than 2 & 3*
+    
+ 
+::: 
 
 ::: footer
 Martens Group 
@@ -182,7 +195,9 @@ Martens Group
 
 ---
 
-## Discussion: <br> 
+## Discussion: 
+
+<br> 
 
 - Does regrouping APs have an impact on our work?
 
