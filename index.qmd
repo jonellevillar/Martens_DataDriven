@@ -138,12 +138,10 @@ Martens Group
 ---
 
 
-### Results 1: <br> Antipsychotic pKi values
+### Results 1: 27 APs and 42 receptors  
 
-- 27 APs and 42 receptors 
-- Larger pKi - greater affinity
 
-![Fig.1](img/Fig1.png){ width=60%}
+![Fig.1: Antipsychotic pKi values](img/Fig1.png){ width=60%}
 
 ::: footer
 Martens Group 
@@ -151,11 +149,9 @@ Martens Group
 
 ---
 
-### Results 2: <br> AP correlation matrix 
+### Results 2: AP receptor-based clusters 
 
-Darker color indicates stronger correlation.
-
-![Fig.2](img/Fig2.png){ width=75%}
+![Fig.2: AP correlation matrix ](img/Fig2.png){ width=75%}
 
 ::: footer
 Martens Group 
@@ -163,9 +159,11 @@ Martens Group
 
 ---
 
-### Results 3: <br> Characterized receptor-defined AP clusters
+### Results 3: <br> Contribution of AP clusters and receptors to PCs
 
-![Fig.3](img/Fig3.png){ width=75%}
+Amount of variation represented in PCs. 
+
+![Fig.3: Receptor-defined AP clusters](img/Fig3.png){ width=75%}
 
 ::: footer
 Martens Group 
@@ -173,9 +171,10 @@ Martens Group
 
 ---
 
-### Results 4: <br> Characterized clinical profiles of PCs & <br> receptor-defined clusters
+### Results 4: <br>  Side-effect and efficacy profiles 
 
-![Fig.4](img/Fig4.png){ width=60%}
+
+![Fig.4: Clinical profiles of PCs and clusters](img/Fig4.png){ width=60%}
 
 
 ::: footer
@@ -186,7 +185,7 @@ Martens Group
 
 ### Results 5: <br> Comparison of AP category methods & median error
 
-![Fig.5](img/Fig5.png){ width=75%}
+![Fig.5: AP categorisation and prediction of side effects](img/Fig5.png){ width=75%}
 
 ::: footer
 Martens Group 
@@ -197,6 +196,10 @@ Martens Group
 ## Results Clinical profile data
 
 - Of 2060 citations, 11 meta-analyses met criteria. 
+
+- 6 side effects had data for ~22 drugs
+
+- Remaining side effect data derived from guidelines.
 
 
 ---
