@@ -74,3 +74,10 @@ Serotonergic and dopaminergic antagonism. Globally moderate side effect burden.
 
 ## Group 4
 Dopaminergic antagonism; Extrapyramidal and motor side effects.
+
+format: 
+  revealjs: 
+  chalkboard: true
+css: extra.css
+incremental: true 
+bibliography: references.bib
