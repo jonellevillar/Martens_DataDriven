@@ -96,6 +96,22 @@ Martens Group
 
 - Created a database of side effects[@Taylor.etal2021]. 
 
+- Reviewed 2060 citations.
+
+- Meta-analyses RCT data
+
+- Compared effect sizes to placebo
+
+- Consensus statements/guidelines for missing side effect estimates.
+
+::: footer
+Martens Group 
+:::
+
+---
+
+### Results: Clinical data
+
 :::: {.columns}
 
 ::: {.column width="60%"}
@@ -106,8 +122,9 @@ Martens Group
 
 ::: {.column width="40%"}
 
-- 
-
+- 11 meta-analyses included
+- 6 side-effects available for ~22 APs
+- Remaining derived from guidelines
 
 :::
 
@@ -123,6 +140,9 @@ Martens Group
 
 ### Results 1: <br> Antipsychotic pKi values
 
+- 27 APs and 42 receptors 
+- Larger pKi - greater affinity
+
 ![Fig.1](img/Fig1.png){ width=60%}
 
 ::: footer
@@ -131,7 +151,9 @@ Martens Group
 
 ---
 
-### Results 2: <br> AP clustering based on receptor profiles
+### Results 2: <br> AP correlation matrix 
+
+Darker color indicates stronger correlation.
 
 ![Fig.2](img/Fig2.png){ width=75%}
 
@@ -162,7 +184,7 @@ Martens Group
 
 ---
 
-### Results 5: <br> AP categorisation schemes & <br> prediction of clinical effects
+### Results 5: <br> Comparison of AP category methods & median error
 
 ![Fig.5](img/Fig5.png){ width=75%}
 
@@ -172,15 +194,23 @@ Martens Group
 
 ---
 
+## Results Clinical profile data
+
+- Of 2060 citations, 11 meta-analyses met criteria. 
+
+
+---
+
 ## Conclusion
 
 <br>
 
 ::: incremental
 
--  Data driven method provides a system for researchers and clinicians. 
+-  Data-driven method provides a system for researchers and clinicians. 
 
--  ID of 4 groups of 42 receptors and 27 APs that map well to clinical profiles.
+-  ID of 4 groups of 42 receptors and 27 APs <br>
+ *map well to pharmacology and clinical profiles* 
 
 -  Method has potential for personalized psychiatry <br>
     *predicting side effects* 
