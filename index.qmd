@@ -33,7 +33,7 @@ Martens Group
 <br>
 
 ::: incremental
--   Receptor affinities obtained from NIMH.
+-   Receptor affinities obtained from NIMH (Psychoactive Drug Screening Program).
 -   Include receptor if data were available for ≤ 5 separate drugs.
 -   Include AP if data were available for ≤ 5 separate receptors.
 -   Remove receptors if Ki values were identical for all drugs.
@@ -88,7 +88,7 @@ Martens Group
 
 -   Compared effect sizes to placebo
 
--   Consensus statements/guidelines for missing side effect estimates
+-   Consensus statements/guidelines for missing side effect estimates [@Taylor.etal2021]
 
 ::: footer
 Martens Group
@@ -108,7 +108,7 @@ Martens Group
 
 ## Results: Clinical data
 
-![Table 1: From Maudsley Prescribing Guidelines in Psychiatry](img/db_sideEffects.png){fig-align="center"}
+![Table 1: From Maudsley Prescribing Guidelines in Psychiatry](img/db_sideEffects.png){fig-align="center"} 
 
 
 
@@ -135,7 +135,7 @@ Martens Group
 
 ## Results 4: Pharma & Clinical data
 
-![Figure 4: Side-effect and efficacy profiles](img/Fig4.png){width="65%"}
+![Figure 4: Clinical profiles of PCs and AP clusters](img/Fig4.png){width="65%"}
 
 
 
@@ -155,9 +155,9 @@ Martens Group
 
 -   ID of 27 APs and 42 receptors that map well to pharmacology and clinical profiles.
 
--  Groups 1 & 4 more efficacious than 2 & 3
+-  Groups 1 & 4 more efficacious than 2 & 3.
 
--  Method has potential for personalized psychiatry 
+-  Method has potential for use in personalized psychiatry. 
 :::
 
 ::: footer
