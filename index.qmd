@@ -30,13 +30,12 @@ Martens Group
 
 ### Step 1: <br> Determine AP receptor affinities
 
-<br>
 
 ::: incremental
--   Receptor affinities obtained from NIMH (Psychoactive Drug Screening Program).
--   Include receptor if data were available for ≤ 5 separate drugs.
--   Include AP if data were available for ≤ 5 separate receptors.
--   Remove receptors if Ki values were identical for all drugs.
+-   Receptor affinities obtained from NIMH (Psychoactive Drug Screening Program)
+-   Include receptor if data were available for ≤ 5 separate drugs
+-   Include AP if data were available for ≤ 5 separate receptors
+-   Remove receptors if Ki values were identical for all drugs
 
 :::
 
@@ -51,9 +50,9 @@ Martens Group
 <br>
 
 ::: incremental
--   Adjust pKi values for agonists/partial agonists.
--   Create correlation matrix with adjusted pKi values.
--   Group AP with similar receptor profiles into distinct groups.
+-   Adjust pKi values for agonists/partial agonists
+-   Create correlation matrix with adjusted pKi values
+-   Group AP with similar receptor profiles into distinct groups
 :::
 
 ::: footer
@@ -64,14 +63,12 @@ Martens Group
 ## Step 3: <br> 
 ### Characterize relationships 
 
-
-
 ::: incremental
--   Perform Probabilistic PCA of receptor profiles.
--   Calculate mean contribution of each AP cluster to PCs.
--   Compare the ability of these clusters to predict side effects using ML.
--   Compare results to existing methods of categorizing APs including NbN [@Zohar.etal2015].
--   Evaluate median absolute error for 27 APs.
+-   Perform Probabilistic PCA of receptor profiles
+-   Calculate mean contribution of variation for each AP cluster to PCs
+-   Compare the ability of these clusters to predict side effects using ML
+-   Compare results to existing methods of categorizing APs including NbN [@Zohar.etal2015]
+-   Evaluate median absolute error of each method to predict side effects.
 :::
 
 ::: footer
@@ -80,7 +77,6 @@ Martens Group
 
 ## Method: Clinical profile data
 
--   Created a database of side effects
 
 -   Reviewed 2060 citations
 
@@ -89,6 +85,8 @@ Martens Group
 -   Compared effect sizes to placebo
 
 -   Consensus statements/guidelines for missing side effect estimates [@Taylor.etal2021]
+
+-   Created a database of side effects
 
 ::: footer
 Martens Group
@@ -148,16 +146,16 @@ Martens Group
 
 ## Conclusion
 
-<br>
+
 
 ::: incremental
--   Data-driven method provides a system for researchers and clinicians.
+-   Data-driven method provides a system for researchers and clinicians
 
--   ID of 27 APs and 42 receptors that map well to pharmacology and clinical profiles.
+-   27 APs and 42 receptors that map well to pharmacology and clinical profiles
 
--  Groups 1 & 4 more efficacious than 2 & 3.
+-  Groups 1 & 4 more efficacious than 2 & 3
 
--  Method has potential for use in personalized psychiatry. 
+-  Method has potential for use in personalized psychiatry
 :::
 
 ::: footer
@@ -167,13 +165,13 @@ Martens Group
 
 ## Discussion:
 
-<br>
+
 
 -   Does regrouping APs have an impact on our work?
 
--   Can we use the correlation matrix normalized for pKi D2 instead of DDD equivalencies?
+-   Can we use the correlation matrix normalized for pKi D2 instead of "Daily Defined Dose" equivalencies?
 
--   Can we take genes associated with predicted side effects and check DNAm & gene expression profiles?
+-   Can we selected genes associated with predicted side effects and check DNAm & gene expression profiles?
 
 ::: footer
 Martens Group
