@@ -1,14 +1,13 @@
 ---
 title: "Pre-Print Paper Presentation"
 author: "Martens Group"
-date: 04/18/2023
+date: "2023-04-18"
 date-format: long
-format:
+format: 
   revealjs:
-    slide-number: true
     chalkboard: true
 incremental: true 
-bibliography: references.bib    
+bibliography: references.bib 
 ---
 
 ![](img/TitleImg.png)
