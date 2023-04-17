@@ -47,7 +47,6 @@ Martens Group
 ## Step 2: <br> 
 ### Cluster APs by receptor affinities
 
-<br>
 
 ::: incremental
 -   Adjust pKi values for agonists/partial agonists
