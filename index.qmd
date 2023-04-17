@@ -108,21 +108,17 @@ Martens Group
 
 ## Results: Clinical data
 
-![](img/db_sideEffects.png){fig-align="left"}
+![Table 1: From Maudsley Prescribing Guidelines in Psychiatry](img/db_sideEffects.png){fig-align="center"}
 
 
-::: footer
-Martens Group
-:::
+
 
 ## Results 1: Pharmacology data 
 
 
 ![Figure 1: Antipsychotic pKi values](img/Fig1.png){width="60%"}
 
-::: footer
-Martens Group
-:::
+
 
 ## Results 2: Pharmacology data 
 
@@ -143,7 +139,7 @@ Martens Group
 
 
 
-## Results 5: 
+## Results 5: Pharma & Clinical data
 
 
 ![Figure 5: Comparison of AP category methods & median error ](img/Fig5.png){width="80%"}
