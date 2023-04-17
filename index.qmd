@@ -127,7 +127,7 @@ Martens Group
 ## Results 2: Pharmacology data 
 
 
-![Figure 2: AP correlation matrix](img/Fig2.png){width="75%"}
+![Figure 2: Receptor-based AP correlation](img/Fig2.png){width="80%"}
 
 ::: footer
 Martens Group
