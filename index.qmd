@@ -64,7 +64,7 @@ Martens Group
 ## Step 3: <br> 
 ### Characterize relationships 
 
-<br>
+
 
 ::: incremental
 -   Perform Probabilistic PCA of receptor profiles.
@@ -108,7 +108,7 @@ Martens Group
 
 ## Results: Clinical data
 
-![](img/db_sideEffects.png){width="60%"}
+![](img/db_sideEffects.png){fig-align="center"}
 
 
 ::: footer
