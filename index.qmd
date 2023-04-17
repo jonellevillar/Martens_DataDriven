@@ -165,7 +165,7 @@ Martens Group
 
 
 
--   Does regrouping APs have an impact on our work?
+-   Does this method of regrouping APs have an impact on our work?
 
 -   Can we use the correlation matrix normalized for pKi D2 instead of "Daily Defined Dose" equivalencies?
 
