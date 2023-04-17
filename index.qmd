@@ -17,243 +17,189 @@ bibliography: references.bib
 ## Background for new classification system
 
 ::: incremental
-
--   Bridge the gap between clinical and research domains 
--   Improve treatment response/tolerability when a medication switch is necessary 
--   Clarify oversimplification (typical/atypical, 1st vs 2nd gen.) 
-
+-   Bridge the gap between clinical and research domains
+-   Improve treatment response/tolerability when a medication switch is necessary
+-   Clarify oversimplification (typical/atypical, 1st vs 2nd gen.)
 :::
 
 ::: footer
-
-Martens Group 
-
+Martens Group
 :::
-
----
 
 ## Method: Research-focused data
 
-### Step 1: <br> Determine AP receptor affinities 
+### Step 1: <br> Determine AP receptor affinities
 
-<br/>
+<br>
 
 ::: incremental
-
 -   Receptor affinities obtained from NIMH.
 -   Include receptor if data were available for ≤ 5 separate drugs.
 -   Include AP if data were available for ≤ 5 separate receptors.
 -   Remove receptors if Ki values were identical for all drugs.
 -   Convert Ki to pKi values.
-
 :::
 
 ::: footer
-Martens Group 
+Martens Group
 :::
 
----
 
-### Step 2: <br> Cluster APs by receptor affinities 
+## Step 2: <br> 
+### Cluster APs by receptor affinities
 
 <br>
 
 ::: incremental
-
--   Adjust pKi values for agonists/partial agonists. 
+-   Adjust pKi values for agonists/partial agonists.
 -   Create correlation matrix with adjusted pKi values.
 -   Group AP with similar receptor profiles into distinct groups.
 :::
 
 ::: footer
-Martens Group 
+Martens Group
 :::
 
----
 
-### Step 3: <br> Characterize relationships between <br> receptor profiles, other categorisation systems, and clinical effects
+## Step 3: <br> 
+### Characterize relationships 
 
 <br>
 
 ::: incremental
-
--   Performed Probabilistic PCA of receptor profiles. 
--   Calculated mean contribution of each AP cluster to 3 PCs.
+-   Perform Probabilistic PCA of receptor profiles.
+-   Calculat mean contribution of each AP cluster to 3 PCs.
 -   Compare the ability of these clusters to predict side effects using ML.
 -   Compare results to existing methods of categorizing APs including NbN [@Zohar.etal2015].
--   Evaluated median absolute error for 27 APs. 
-
+-   Evaluate median absolute error for 27 APs.
 :::
 
 ::: footer
-Martens Group 
+Martens Group
 :::
 
----
+## Method: Clinical profile data
 
-## Method: Clinical-focused data
+-   Created a database of side effects
 
-- Created a database of side effects[@Taylor.etal2021]. 
+-   Reviewed 2060 citations
 
-- Reviewed 2060 citations.
+-   Meta-analyses RCT data
 
-- Meta-analyses RCT data
+-   Compared effect sizes to placebo
 
-- Compared effect sizes to placebo
-
-- Consensus statements/guidelines for missing side effect estimates.
+-   Consensus statements/guidelines for missing side effect estimates.
 
 ::: footer
-Martens Group 
+Martens Group
 :::
 
----
+## Results: Clinical data
 
-### Results: Clinical data
+-   11 meta-analyses met criteria
+-   6 side effects available for \~22 APs
+-   Remaining side effects derived from guidelines
 
-:::: {.columns}
-
-::: {.column width="60%"}
-
-![](img/db_sideEffects.png)
-
-:::
-
-::: {.column width="40%"}
-
-- 11 meta-analyses included
-- 6 side-effects available for ~22 APs
-- Remaining derived from guidelines
-
-:::
-
-::::
-
-::: footer
-Martens Group 
-:::
-
-
----
-
-
-### Results 1: 27 APs and 42 receptors  
-
-
-![Fig.1: Antipsychotic pKi values](img/Fig1.png){ width=60%}
-
-::: footer
-Martens Group 
-:::
-
----
-
-### Results 2: AP receptor-based clusters 
-
-![Fig.2: AP correlation matrix ](img/Fig2.png){ width=75%}
-
-::: footer
-Martens Group 
-:::
-
----
-
-### Results 3: <br> Contribution of AP clusters and receptors to PCs
-
-Amount of variation represented in PCs. 
-
-![Fig.3: Receptor-defined AP clusters](img/Fig3.png){ width=75%}
-
-::: footer
-Martens Group 
-:::
-
----
-
-### Results 4: <br>  Side-effect and efficacy profiles 
-
-
-![Fig.4: Clinical profiles of PCs and clusters](img/Fig4.png){ width=60%}
 
 
 ::: footer
-Martens Group 
+Martens Group
 :::
 
----
+## Results: Clinical data
 
-### Results 5: <br> Comparison of AP category methods & median error
+![](img/db_sideEffects.png){width="60%"}
 
-![Fig.5: AP categorisation and prediction of side effects](img/Fig5.png){ width=75%}
 
 ::: footer
-Martens Group 
+Martens Group
 :::
 
----
+## Results 1: Pharmacology data <br> 
+### 27 APs and 42 receptors med criteria
 
-## Results Clinical profile data
+![Figure 1: Antipsychotic pKi values](img/Fig1.png){width="60%"}
 
-- Of 2060 citations, 11 meta-analyses met criteria. 
+::: footer
+Martens Group
+:::
 
-- 6 side effects had data for ~22 drugs
+## Results 2: Pharmacology data <br> 
+### Identified 4 AP receptor-based clusters
 
-- Remaining side effect data derived from guidelines.
+![Figure 2: AP correlation matrix](img/Fig2.png){width="75%"}
+
+::: footer
+Martens Group
+:::
 
 
----
+## Results 3: <br> 
+### Contribution of AP clusters and receptors to PCs
+
+![Figure 3: Receptor-defined AP clusters](img/Fig3.png){width="75%"}
+
+::: footer
+Martens Group
+:::
+
+## Results 4: <br> 
+### Side-effect and efficacy profiles
+
+![Figure 4: Clinical profiles of PCs and clusters](img/Fig4.png){width="60%"}
+
+::: footer
+Martens Group
+:::
+
+## Results 5: <br> 
+### Comparison of AP category methods & median error
+
+![Figure 5: AP categorisation and prediction of side effects](img/Fig5.png){width="75%"}
+
+::: footer
+Martens Group
+:::
+
 
 ## Conclusion
 
 <br>
 
 ::: incremental
+-   Data-driven method provides a system for researchers and clinicians.
 
--  Data-driven method provides a system for researchers and clinicians. 
+-   ID of 4 groups of 42 receptors and 27 APs <br> *map well to pharmacology and clinical profiles*
 
--  ID of 4 groups of 42 receptors and 27 APs <br>
- *map well to pharmacology and clinical profiles* 
-
--  Method has potential for personalized psychiatry <br>
-    *predicting side effects* 
-    *groups 1 & 4 more efficacious than 2 & 3*
-    
- 
-::: 
-
-::: footer
-Martens Group 
+-   Method has potential for personalized psychiatry <br> *predicting side effects* *groups 1 & 4 more efficacious than 2 & 3*
 :::
 
----
-
-## Discussion: 
-
-<br> 
-
-- Does regrouping APs have an impact on our work?
-
-- Can we use the correlation matrix normalized for pKi D2 instead of chloropromazine equivalencies? 
-
-- What caught your interest?
-
-
 ::: footer
-Martens Group 
+Martens Group
 :::
 
----
+
+## Discussion:
+
+<br>
+
+-   Does regrouping APs have an impact on our work?
+
+-   Can we use the correlation matrix normalized for pKi D2 instead of chloropromazine equivalencies?
+
+-   Can we take genes associated with predicted side effects and check DNAm & genx profiles?
+
+::: footer
+Martens Group
+:::
 
 ## Acknowledgements
-Stéphanie and Anne-Kristin and you all!
-![](img/Martens_web2022final.png){ width=70%}
 
----
+Stéphanie and Anne-Kristin and you all! ![](img/Martens_web2022final.png){width="70%"}
+
+
 ## References
 
 ::: footer
 Martens Group 
 :::
-
-
----
