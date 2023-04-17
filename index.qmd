@@ -185,7 +185,7 @@ Martens Group
 
 -   Does regrouping APs have an impact on our work?
 
--   Can we use the correlation matrix normalized for pKi D2 instead of chloropromazine equivalencies?
+-   Can we use the correlation matrix normalized for pKi D2 instead of DDD equivalencies?
 
 -   Can we take genes associated with predicted side effects and check DNAm & gene expression profiles?
 
