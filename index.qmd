@@ -64,7 +64,6 @@ Martens Group
 
 ::: incremental
 -   Perform Probabilistic PCA of receptor profiles
--   Calculate mean contribution of variation for each AP cluster to PCs
 -   Compare the ability of these clusters to predict side effects using ML
 -   Compare results to existing methods of categorizing APs including NbN [@Zohar.etal2015]
 -   Evaluate median absolute error of each method to predict side effects.
