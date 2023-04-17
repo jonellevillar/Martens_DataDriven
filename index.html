@@ -386,7 +386,6 @@ Martens Group
 <li class="fragment">Include receptor if data were available for ≤ 5 separate drugs.</li>
 <li class="fragment">Include AP if data were available for ≤ 5 separate receptors.</li>
 <li class="fragment">Remove receptors if Ki values were identical for all drugs.</li>
-<li class="fragment">Convert Ki to pKi values.</li>
 </ul>
 </div>
 <div class="footer">
@@ -415,7 +414,7 @@ Martens Group
 <div>
 <ul>
 <li class="fragment">Perform Probabilistic PCA of receptor profiles.</li>
-<li class="fragment">Calculat mean contribution of each AP cluster to 3 PCs.</li>
+<li class="fragment">Calculate mean contribution of each AP cluster to PCs.</li>
 <li class="fragment">Compare the ability of these clusters to predict side effects using ML.</li>
 <li class="fragment">Compare results to existing methods of categorizing APs including NbN <span class="citation" data-cites="Zohar.etal2015">(<a href="#/references" role="doc-biblioref" onclick="">Zohar et al. 2015</a>)</span>.</li>
 <li class="fragment">Evaluate median absolute error for 27 APs.</li>
@@ -432,7 +431,7 @@ Martens Group
 <li class="fragment"><p>Reviewed 2060 citations</p></li>
 <li class="fragment"><p>Meta-analyses RCT data</p></li>
 <li class="fragment"><p>Compared effect sizes to placebo</p></li>
-<li class="fragment"><p>Consensus statements/guidelines for missing side effect estimates.</p></li>
+<li class="fragment"><p>Consensus statements/guidelines for missing side effect estimates</p></li>
 </ul>
 <div class="footer">
 <p>Martens Group</p>
@@ -457,42 +456,37 @@ Martens Group
 </div>
 </section>
 <section id="results-1-pharmacology-data" class="slide level2">
-<h2>Results 1: Pharmacology data <br></h2>
-<h3 id="aps-and-42-receptors-med-criteria">27 APs and 42 receptors med criteria</h3>
+<h2>Results 1: Pharmacology data</h2>
 
 <img data-src="img/Fig1.png" style="width:60.0%" class="r-stretch quarto-figure-center"><p class="caption">Figure 1: Antipsychotic pKi values</p><div class="footer">
 <p>Martens Group</p>
 </div>
 </section>
 <section id="results-2-pharmacology-data" class="slide level2">
-<h2>Results 2: Pharmacology data <br></h2>
-<h3 id="identified-4-ap-receptor-based-clusters">Identified 4 AP receptor-based clusters</h3>
+<h2>Results 2: Pharmacology data</h2>
 
 <img data-src="img/Fig2.png" style="width:75.0%" class="r-stretch quarto-figure-center"><p class="caption">Figure 2: AP correlation matrix</p><div class="footer">
 <p>Martens Group</p>
 </div>
 </section>
-<section id="results-3" class="slide level2">
-<h2>Results 3: <br></h2>
-<h3 id="contribution-of-ap-clusters-and-receptors-to-pcs">Contribution of AP clusters and receptors to PCs</h3>
+<section id="results-3-pharmacology-data" class="slide level2">
+<h2>Results 3: Pharmacology data</h2>
 
-<img data-src="img/Fig3.png" style="width:75.0%" class="r-stretch quarto-figure-center"><p class="caption">Figure 3: Receptor-defined AP clusters</p><div class="footer">
+<img data-src="img/Fig3.png" style="width:75.0%" class="r-stretch quarto-figure-center"><p class="caption">Figure 3: Contribution of receptor-defined AP clusters to PCs</p><div class="footer">
 <p>Martens Group</p>
 </div>
 </section>
 <section id="results-4" class="slide level2">
-<h2>Results 4: <br></h2>
-<h3 id="side-effect-and-efficacy-profiles">Side-effect and efficacy profiles</h3>
+<h2>Results 4:</h2>
 
-<img data-src="img/Fig4.png" style="width:60.0%" class="r-stretch quarto-figure-center"><p class="caption">Figure 4: Clinical profiles of PCs and clusters</p><div class="footer">
+<img data-src="img/Fig4.png" style="width:60.0%" class="r-stretch quarto-figure-center"><p class="caption">Figure 4: Side-effect and efficacy profiles</p><div class="footer">
 <p>Martens Group</p>
 </div>
 </section>
 <section id="results-5" class="slide level2">
-<h2>Results 5: <br></h2>
-<h3 id="comparison-of-ap-category-methods-median-error">Comparison of AP category methods &amp; median error</h3>
+<h2>Results 5:</h2>
 
-<img data-src="img/Fig5.png" style="width:75.0%" class="r-stretch quarto-figure-center"><p class="caption">Figure 5: AP categorisation and prediction of side effects</p><div class="footer">
+<img data-src="img/Fig5.png" style="width:75.0%" class="r-stretch quarto-figure-center"><p class="caption">Figure 5: Comparison of AP category methods &amp; median error</p><div class="footer">
 <p>Martens Group</p>
 </div>
 </section>
@@ -502,8 +496,9 @@ Martens Group
 <div>
 <ul>
 <li class="fragment"><p>Data-driven method provides a system for researchers and clinicians.</p></li>
-<li class="fragment"><p>ID of 4 groups of 42 receptors and 27 APs <br> <em>map well to pharmacology and clinical profiles</em></p></li>
-<li class="fragment"><p>Method has potential for personalized psychiatry <br> <em>predicting side effects</em> <em>groups 1 &amp; 4 more efficacious than 2 &amp; 3</em></p></li>
+<li class="fragment"><p>ID of 27 APs and 42 receptors that map well to pharmacology and clinical profiles.</p></li>
+<li class="fragment"><p>Groups 1 &amp; 4 more efficacious than 2 &amp; 3</p></li>
+<li class="fragment"><p>Method has potential for personalized psychiatry</p></li>
 </ul>
 </div>
 <div class="footer">
@@ -516,7 +511,7 @@ Martens Group
 <ul>
 <li class="fragment"><p>Does regrouping APs have an impact on our work?</p></li>
 <li class="fragment"><p>Can we use the correlation matrix normalized for pKi D2 instead of chloropromazine equivalencies?</p></li>
-<li class="fragment"><p>Can we take genes associated with predicted side effects and check DNAm &amp; genx profiles?</p></li>
+<li class="fragment"><p>Can we take genes associated with predicted side effects and check DNAm &amp; gene expression profiles?</p></li>
 </ul>
 <div class="footer">
 <p>Martens Group</p>
