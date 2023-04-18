@@ -37,7 +37,7 @@ Martens Group
 -   Receptor affinities obtained from NIMH (Psychoactive Drug Screening Program)
 -   Include receptor if data were available for ≤ 5 separate drugs
 -   Include AP if data were available for ≤ 5 separate receptors
--   Remove receptors if Ki values were identical for all drugs
+-   Exclude receptors if Ki values were identical for all drugs
 
 :::
 
@@ -67,8 +67,8 @@ Martens Group
 ::: incremental
 -   Perform Probabilistic PCA of receptor profiles
 -   Compare the ability of these clusters to predict side effects using ML
--   Compare results to existing methods of categorizing APs including NbN [@Zohar.etal2015]
--   Evaluate median absolute error of each method to predict side effects.
+-   Compare results to existing methods of categorizing APs including Neuroscience based Nomenclature (NbN) [@Zohar.etal2015]
+-   Evaluate median absolute error of each method to predict side effects
 :::
 
 ::: footer
@@ -80,7 +80,7 @@ Martens Group
 
 -   Reviewed 2060 citations
 
--   Meta-analyses RCT data
+-   Included meta-analyses RCT data
 
 -   Compared effect sizes to placebo
 
