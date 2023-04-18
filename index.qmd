@@ -12,7 +12,7 @@ bibliography: references.bib
 
 ## Coming soon!
 
-![](img/DataDriven.png){width="80%"}
+![](img/DataDriven.png){width="70%"}
 
 ---
 
